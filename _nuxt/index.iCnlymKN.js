@@ -1,1 +1,0 @@
-import{_ as t}from"./Nav.gwNNRKC9.js";import{_ as n,v as o,z as c,x as s,t as _}from"./entry.rmUcwhnR.js";const a={},r=s("h1",null,"Restaurants",-1);function d(l,m){const e=t;return _(),o("div",null,[c(e),r])}const p=n(a,[["render",d]]);export{p as default};
