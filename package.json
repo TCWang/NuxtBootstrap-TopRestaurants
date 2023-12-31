@@ -6,18 +6,23 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "start": "nuxt start",
     "deploy": "gh-pages -d dist",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/types": "^2.17.2",
+    "@nuxt/typescript-build": "^3.0.2",
     "gh-pages": "^6.1.1",
     "nuxt": "^3.9.0",
+    "typescript": "^5.3.3",
     "vue": "^3.4.0",
     "vue-router": "^4.2.5"
   },
   "dependencies": {
     "@nuxt/image-edge": "^1.1.0-28396365.97249ca",
+    "@nuxt/typescript-runtime": "^3.0.2",
     "@vueuse/nuxt": "^10.7.1"
   }
 }

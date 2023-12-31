@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxt/image-edge", "@vueuse/nuxt"],
+  modules: ["@nuxt/image-edge", "@vueuse/nuxt", "@nuxt/typescript-build"],
 
   app: {
     head: {
