@@ -1,10 +1,8 @@
 <template>
   <div>
     <Nav />
-    <h1>Restaurants</h1>
+    <div class="container">
+      <RestaurantTable />
+    </div>
   </div>
 </template>
-
-<script setup></script>
-
-<style scoped></style>
